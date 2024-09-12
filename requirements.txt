@@ -1,11 +1,10 @@
-catboost
 joblib
-lightgbm
 optuna
 streamlit
 xgboost
-sklearn
+scikit-learn
 markupsafe
 numpy
 pandas
 zenml
+mlflow

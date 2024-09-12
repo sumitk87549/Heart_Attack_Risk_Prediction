@@ -1,4 +1,4 @@
 from pipelines.training_pipeline import training_pipeline
 
 if __name__ == "__main__":
-    training_pipeline(datapath="data/heart_attack_prediction_dataset.csv")
+    training_pipeline(datapath="data/heart.csv")
