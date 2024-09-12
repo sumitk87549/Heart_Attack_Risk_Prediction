@@ -63,7 +63,7 @@ def prediction_service_loader( pipeline_name: str, pipeline_step_name:str, runni
             f"No MLFlow deployment services found for pipeline {pipeline_name}",
             f"Step - {pipeline_step_name} and model {modal_name}",
         )
-    return  existing_services[0]
+    return existing_services[0]
 
 @step()
 def predictor( service: MLFlowDeploymentService, data: str) -> np.ndarray:
